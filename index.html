@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CaféTech</title>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f1;
+    color: #333;
+  }
+
+  /* MENÚ */
+  nav {
+    background-color: #4b2e1f;
+    padding: 18px;
+    text-align: center;
+  }
+
+  nav h2 {
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  /* SECCIONES */
+  section {
+    padding: 70px 20px;
+    text-align: center;
+  }
+
+  /* INICIO */
+  #inicio {
+    background-color: #d9b38c;
+    min-height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #inicio h1 {
+    font-size: 48px;
+    color: #4b2e1f;
+    margin-bottom: 15px;
+  }
+
+  #inicio p {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+
+  .boton {
+    display: inline-block;
+    background-color: #4b2e1f;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .boton:hover {
+    background-color: #6b422c;
+  }
+
+  /* SERVICIOS */
+  #servicios {
+    background-color: white;
+  }
+
+  #servicios h2,
+  #contacto h2 {
+    font-size: 32px;
+    color: #4b2e1f;
+    margin-bottom: 15px;
+  }
+
+  .contenedor-servicios {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+  }
+
+  .tarjeta {
+    background-color: #f8f5f1;
+    width: 280px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  }
+
+  .tarjeta h3 {
+    color: #4b2e1f;
+    margin-bottom: 12px;
+  }
+
+  .tarjeta p {
+    line-height: 1.5;
+  }
+
+  .icono {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  /* SOBRE NOSOTROS */
+  #nosotros {
+    background-color: #eee1d3;
+  }
+
+  #nosotros p {
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  /* CONTACTO */
+  #contacto {
+    background-color: #d9b38c;
+  }
+
+  .contacto-info {
+    margin-top: 25px;
+    line-height: 2;
+    font-size: 18px;
+  }
+
+  /* FOOTER */
+  footer {
+    background-color: #4b2e1f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    #inicio h1 {
+      font-size: 36px;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 5px 8px;
+    }
+
+    .tarjeta {
+      width: 90%;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+  <!-- MENÚ -->
+  <nav>
+    <h2>☕ CaféTech</h2>
+
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+
+  <!-- Salo: SECCIÓN DE INICIO -->
+  <section id="inicio">
+
+    <h1>CaféTech</h1>
+
+    <p>
+      Tecnología y café para acompañar tus mejores ideas.
+    </p>
+
+    <a href="#servicios" class="boton">
+      Conoce nuestros productos
+    </a>
+
+  </section>
+
+
+  <!-- SECCIÓN SOBRE NOSOTROS -->
+  <section id="nosotros">
+
+    <h2>¿Quiénes somos😊?</h2>
+
+    <p>
+      En CaféTech combinamos el sabor del buen café con un espacio
+      cómodo para estudiar, trabajar y compartir. Nuestro objetivo es
+      ofrecer productos de calidad y un ambiente agradable para todas
+      las personas que disfrutan del café y la tecnología.
+    </p>
+
+  </section>
